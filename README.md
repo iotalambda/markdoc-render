@@ -13,7 +13,7 @@ npm install github:iotalambda/markdoc-render
 Or with a specific version:
 
 ```bash
-npm install github:iotalambda/markdoc-render#v0.1.0
+npm install github:iotalambda/markdoc-render#v0.1.1
 ```
 
 ## Configuration

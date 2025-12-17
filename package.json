@@ -1,6 +1,6 @@
 {
   "name": "markdoc-render",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Markdoc template renderer with cross-references and partials",
   "bin": {
     "mdr": "./bin/cli.js"
