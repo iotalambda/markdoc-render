@@ -18,11 +18,11 @@ npm install github:iotalambda/markdoc-render#v0.1.0
 
 ## Configuration
 
-Create `mdr.config.ts` or `mdr.config.js` in your project root:
+Create `mdr.config.js` in your project root:
 
-```typescript
-// mdr.config.ts
-export default {
+```javascript
+// mdr.config.js
+module.exports = {
   // Required
   templatesDir: "./templates",  // Where .mdoc files are located
   outputDir: "./out",           // Where .g.md files will be written
@@ -32,16 +32,6 @@ export default {
   debounceMs: 100,                 // Watch mode debounce (default: 100)
 };
 ```
-
-```javascript
-// mdr.config.js
-module.exports = {
-  templatesDir: "./templates",
-  outputDir: "./out",
-};
-```
-
-> **Note:** TypeScript config requires `tsx` or `ts-node` to be installed as a dev dependency.
 
 ## Usage
 
