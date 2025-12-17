@@ -1,0 +1,13 @@
+{
+  "name": "markdoc-render-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "render": "mdr render",
+    "watch": "mdr watch",
+    "push": "mdr push"
+  },
+  "dependencies": {
+    "markdoc-render": ".."
+  }
+}

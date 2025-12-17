@@ -1,0 +1,28 @@
+{
+  "name": "markdoc-render",
+  "version": "0.1.0",
+  "description": "Markdoc template renderer with cross-references and partials",
+  "bin": {
+    "mdr": "./bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "lib/"
+  ],
+  "keywords": [
+    "markdoc",
+    "markdown",
+    "render",
+    "templates",
+    "cli"
+  ],
+  "author": "iotalambda",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iotalambda/markdoc-render.git"
+  },
+  "dependencies": {
+    "@markdoc/markdoc": "^0.5.4"
+  }
+}
